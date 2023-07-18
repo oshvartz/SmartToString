@@ -1,4 +1,5 @@
 ﻿using CodeGen.SmartStringGenerators;
+
 namespace ConsoleAppExample
 {
     public class Person

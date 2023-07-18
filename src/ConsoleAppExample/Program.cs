@@ -10,3 +10,12 @@ var person = new Person
 };
 
 Console.WriteLine(person.ToStringSmart());
+
+var car = new Car
+{
+    OwnerId = "Homer",
+    Brand = CarBrand.Honda,
+    LicencePlateNumber = "007"
+};
+
+Console.WriteLine(car.ToStringSmart());
