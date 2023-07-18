@@ -1,12 +1,12 @@
 ﻿using CodeGen.SmartStringGenerators;
 using ConsoleAppExample;
 
-var exampleObject = new ExampleObject
+var person = new Person
 {
-    StrProperty = "Prop1",
-    StrProperty2 = "Prop2",
-    IntProperty = 1,
-    IntProperty2 = 2
+    FirstName = "Homer",
+    LastName = "Simpson",
+    SomeSecret = 101,
+    Id = 1234
 };
 
-Console.WriteLine(exampleObject.ToStringSmart());
+Console.WriteLine(person.ToStringSmart());
